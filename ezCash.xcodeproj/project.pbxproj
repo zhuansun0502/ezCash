@@ -3,18 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BDB65FFD4FCF0E4696137CD /* Pods_ezCashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016DA7C2DE609E24B0D6E459 /* Pods_ezCashTests.framework */; };
+		6822FFE8037394B96A42968C /* Pods_ezCash_ezCashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEE0CE5931B2124E7CB3A1 /* Pods_ezCash_ezCashUITests.framework */; };
+		A702885623F0E4F600C65C5C /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A72F77E523F24E7D00EB58F9 /* UserPasswordRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F77E423F24E7D00EB58F9 /* UserPasswordRegisterViewController.swift */; };
+		A73324EC24060173001AEEC9 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73324EB24060173001AEEC9 /* SideMenuTableViewController.swift */; };
+		A73324F0240606DF001AEEC9 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73324EF240606DF001AEEC9 /* SlideInTransition.swift */; };
+		A74950A323EF22DB00FD3E1D /* UserEmailRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74950A223EF22DB00FD3E1D /* UserEmailRegisterViewController.swift */; };
+		A74DC23B242A5D440060F955 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74DC23A242A5D440060F955 /* PostDetailViewController.swift */; };
+		A753170923F8727300A7FF79 /* UserPasswordLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A753170823F8727300A7FF79 /* UserPasswordLoginViewController.swift */; };
+		A76761C623FF7609009C7DB2 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76761C523FF7609009C7DB2 /* UserProfileViewController.swift */; };
+		A76B479824076543005C7676 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B479724076543005C7676 /* EditProfileViewController.swift */; };
+		A76BF8B324607041003969DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BF8B224607041003969DC /* TableViewCell.swift */; };
+		A77BCD0A240F30E2002F4455 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BCD09240F30E2002F4455 /* SwitchViewController.swift */; };
+		A790FD4123F0ECAD0029878A /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A790FD4423F0ECAD0029878A /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A79CABEC2409E66900BCCBE5 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CABEB2409E66900BCCBE5 /* NewPostViewController.swift */; };
+		A7AAAD8723FCCDEE003D82E5 /* FireBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AAAD8623FCCDEE003D82E5 /* FireBaseHelper.swift */; };
+		A7C7745723EE5A7600A7D034 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7745623EE5A7600A7D034 /* TableViewController.swift */; };
+		A7CC2D2423F0E8E300B3E0B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CC2D2323F0E8E300B3E0B5 /* GoogleService-Info.plist */; };
 		A7DDCB9923ED0622009C2D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCB9823ED0622009C2D9B /* AppDelegate.swift */; };
 		A7DDCB9B23ED0622009C2D9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCB9A23ED0622009C2D9B /* SceneDelegate.swift */; };
-		A7DDCB9D23ED0622009C2D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCB9C23ED0622009C2D9B /* ViewController.swift */; };
+		A7DDCB9D23ED0622009C2D9B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCB9C23ED0622009C2D9B /* MapViewController.swift */; };
 		A7DDCBA023ED0622009C2D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DDCB9E23ED0622009C2D9B /* Main.storyboard */; };
 		A7DDCBA223ED0625009C2D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DDCBA123ED0625009C2D9B /* Assets.xcassets */; };
 		A7DDCBA523ED0625009C2D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DDCBA323ED0625009C2D9B /* LaunchScreen.storyboard */; };
 		A7DDCBB023ED0625009C2D9B /* ezCashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCBAF23ED0625009C2D9B /* ezCashTests.swift */; };
 		A7DDCBBB23ED0625009C2D9B /* ezCashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDCBBA23ED0625009C2D9B /* ezCashUITests.swift */; };
+		C03F1D3A164ED2488505AB85 /* Pods_ezCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BDB65160A39B56021B4987 /* Pods_ezCash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +54,79 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A702885723F0E4F600C65C5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A790FD4123F0ECAD0029878A /* BuildFile in Embed Frameworks */,
+				A790FD4423F0ECAD0029878A /* BuildFile in Embed Frameworks */,
+				A702885623F0E4F600C65C5C /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		016DA7C2DE609E24B0D6E459 /* Pods_ezCashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ezCashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BDB65160A39B56021B4987 /* Pods_ezCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ezCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		099E8007DF8D76A51BFA2F4A /* Pods-ezCash-ezCashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCash-ezCashUITests.debug.xcconfig"; path = "Target Support Files/Pods-ezCash-ezCashUITests/Pods-ezCash-ezCashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F60D7F87BBD8776A7B7A8B5 /* Pods-ezCashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCashTests.release.xcconfig"; path = "Target Support Files/Pods-ezCashTests/Pods-ezCashTests.release.xcconfig"; sourceTree = "<group>"; };
+		52FEE0CE5931B2124E7CB3A1 /* Pods_ezCash_ezCashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ezCash_ezCashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE98A36B7B50E698F6CE620 /* Pods-ezCashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCashTests.debug.xcconfig"; path = "Target Support Files/Pods-ezCashTests/Pods-ezCashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD7282E45D618C4209670B5 /* Pods-ezCash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCash.debug.xcconfig"; path = "Target Support Files/Pods-ezCash/Pods-ezCash.debug.xcconfig"; sourceTree = "<group>"; };
+		9E8EBE0063730BE1E64A6447 /* Pods-ezCash-ezCashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCash-ezCashUITests.release.xcconfig"; path = "Target Support Files/Pods-ezCash-ezCashUITests/Pods-ezCash-ezCashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A72F77E423F24E7D00EB58F9 /* UserPasswordRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordRegisterViewController.swift; sourceTree = "<group>"; };
+		A73324EB24060173001AEEC9 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		A73324EF240606DF001AEEC9 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		A74950A223EF22DB00FD3E1D /* UserEmailRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailRegisterViewController.swift; sourceTree = "<group>"; };
+		A74DC23A242A5D440060F955 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		A753170823F8727300A7FF79 /* UserPasswordLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordLoginViewController.swift; sourceTree = "<group>"; };
+		A76761C523FF7609009C7DB2 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		A76B479724076543005C7676 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A76BF8B224607041003969DC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A77BCD09240F30E2002F4455 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		A790FCDD23F0EC790029878A /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCDE23F0EC790029878A /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCDF23F0EC790029878A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE023F0EC790029878A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE123F0EC790029878A /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE223F0EC790029878A /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE323F0EC790029878A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE423F0EC790029878A /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE523F0EC790029878A /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE623F0EC790029878A /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE723F0EC790029878A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE823F0EC790029878A /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCE923F0EC790029878A /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCEA23F0EC790029878A /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FCEB23F0EC790029878A /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1123F0ECAD0029878A /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1223F0ECAD0029878A /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1323F0ECAD0029878A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1423F0ECAD0029878A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1523F0ECAD0029878A /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1623F0ECAD0029878A /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1723F0ECAD0029878A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1823F0ECAD0029878A /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1923F0ECAD0029878A /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1A23F0ECAD0029878A /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1B23F0ECAD0029878A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1C23F0ECAD0029878A /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1D23F0ECAD0029878A /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1E23F0ECAD0029878A /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790FD1F23F0ECAD0029878A /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79CABEB2409E66900BCCBE5 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		A7AAAD8623FCCDEE003D82E5 /* FireBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseHelper.swift; sourceTree = "<group>"; };
+		A7C7745623EE5A7600A7D034 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A7CC2D2323F0E8E300B3E0B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7DDCB9523ED0622009C2D9B /* ezCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DDCB9823ED0622009C2D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DDCB9A23ED0622009C2D9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7DDCB9C23ED0622009C2D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7DDCB9C23ED0622009C2D9B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A7DDCB9F23ED0622009C2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7DDCBA123ED0625009C2D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7DDCBA423ED0625009C2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +137,7 @@
 		A7DDCBB623ED0625009C2D9B /* ezCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DDCBBA23ED0625009C2D9B /* ezCashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezCashUITests.swift; sourceTree = "<group>"; };
 		A7DDCBBC23ED0625009C2D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57A075C8DCC0DBEA809C3FD /* Pods-ezCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCash.release.xcconfig"; path = "Target Support Files/Pods-ezCash/Pods-ezCash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03F1D3A164ED2488505AB85 /* Pods_ezCash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDB65FFD4FCF0E4696137CD /* Pods_ezCashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +161,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6822FFE8037394B96A42968C /* Pods_ezCash_ezCashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46D57BAF8726A9231C1C2EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A790FD1123F0ECAD0029878A /* FBLPromises.framework */,
+				A790FD1223F0ECAD0029878A /* FirebaseAuth.framework */,
+				A790FD1323F0ECAD0029878A /* FirebaseCore.framework */,
+				A790FD1423F0ECAD0029878A /* FirebaseCoreDiagnostics.framework */,
+				A790FD1523F0ECAD0029878A /* FirebaseDatabase.framework */,
+				A790FD1623F0ECAD0029878A /* FirebaseInstallations.framework */,
+				A790FD1723F0ECAD0029878A /* FirebaseInstanceID.framework */,
+				A790FD1823F0ECAD0029878A /* FirebaseStorage.framework */,
+				A790FD1923F0ECAD0029878A /* GoogleDataTransport.framework */,
+				A790FD1A23F0ECAD0029878A /* GoogleDataTransportCCTSupport.framework */,
+				A790FD1B23F0ECAD0029878A /* GoogleUtilities.framework */,
+				A790FD1C23F0ECAD0029878A /* GTMSessionFetcher.framework */,
+				A790FD1D23F0ECAD0029878A /* JVFloatLabeledTextField.framework */,
+				A790FD1E23F0ECAD0029878A /* leveldb.framework */,
+				A790FD1F23F0ECAD0029878A /* nanopb.framework */,
+				A790FCDD23F0EC790029878A /* FBLPromises.framework */,
+				A790FCDE23F0EC790029878A /* FirebaseAuth.framework */,
+				A790FCDF23F0EC790029878A /* FirebaseCore.framework */,
+				A790FCE023F0EC790029878A /* FirebaseCoreDiagnostics.framework */,
+				A790FCE123F0EC790029878A /* FirebaseDatabase.framework */,
+				A790FCE223F0EC790029878A /* FirebaseInstallations.framework */,
+				A790FCE323F0EC790029878A /* FirebaseInstanceID.framework */,
+				A790FCE423F0EC790029878A /* FirebaseStorage.framework */,
+				A790FCE523F0EC790029878A /* GoogleDataTransport.framework */,
+				A790FCE623F0EC790029878A /* GoogleDataTransportCCTSupport.framework */,
+				A790FCE723F0EC790029878A /* GoogleUtilities.framework */,
+				A790FCE823F0EC790029878A /* GTMSessionFetcher.framework */,
+				A790FCE923F0EC790029878A /* JVFloatLabeledTextField.framework */,
+				A790FCEA23F0EC790029878A /* leveldb.framework */,
+				A790FCEB23F0EC790029878A /* nanopb.framework */,
+				07BDB65160A39B56021B4987 /* Pods_ezCash.framework */,
+				52FEE0CE5931B2124E7CB3A1 /* Pods_ezCash_ezCashUITests.framework */,
+				016DA7C2DE609E24B0D6E459 /* Pods_ezCashTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A73324EE240606B0001AEEC9 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A7AAAD8623FCCDEE003D82E5 /* FireBaseHelper.swift */,
+				A73324EF240606DF001AEEC9 /* SlideInTransition.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		A753170423F85DC100A7FF79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7745623EE5A7600A7D034 /* TableViewController.swift */,
+				A76BF8B224607041003969DC /* TableViewCell.swift */,
+				A7DDCB9C23ED0622009C2D9B /* MapViewController.swift */,
+				A74950A223EF22DB00FD3E1D /* UserEmailRegisterViewController.swift */,
+				A72F77E423F24E7D00EB58F9 /* UserPasswordRegisterViewController.swift */,
+				A753170823F8727300A7FF79 /* UserPasswordLoginViewController.swift */,
+				A76761C523FF7609009C7DB2 /* UserProfileViewController.swift */,
+				A73324EB24060173001AEEC9 /* SideMenuTableViewController.swift */,
+				A76B479724076543005C7676 /* EditProfileViewController.swift */,
+				A79CABEB2409E66900BCCBE5 /* NewPostViewController.swift */,
+				A77BCD09240F30E2002F4455 /* SwitchViewController.swift */,
+				A74DC23A242A5D440060F955 /* PostDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A790FCDC23F0EBEB0029878A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		A7DDCB8C23ED0622009C2D9B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +250,9 @@
 				A7DDCBAE23ED0625009C2D9B /* ezCashTests */,
 				A7DDCBB923ED0625009C2D9B /* ezCashUITests */,
 				A7DDCB9623ED0622009C2D9B /* Products */,
+				D57444B99C2007A95DCDFC6B /* Pods */,
+				46D57BAF8726A9231C1C2EEE /* Frameworks */,
+				A790FCDC23F0EBEB0029878A /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +271,12 @@
 			children = (
 				A7DDCB9823ED0622009C2D9B /* AppDelegate.swift */,
 				A7DDCB9A23ED0622009C2D9B /* SceneDelegate.swift */,
-				A7DDCB9C23ED0622009C2D9B /* ViewController.swift */,
+				A73324EE240606B0001AEEC9 /* HelperClasses */,
+				A753170423F85DC100A7FF79 /* ViewControllers */,
 				A7DDCB9E23ED0622009C2D9B /* Main.storyboard */,
 				A7DDCBA123ED0625009C2D9B /* Assets.xcassets */,
 				A7DDCBA323ED0625009C2D9B /* LaunchScreen.storyboard */,
+				A7CC2D2323F0E8E300B3E0B5 /* GoogleService-Info.plist */,
 				A7DDCBA623ED0625009C2D9B /* Info.plist */,
 			);
 			path = ezCash;
@@ -128,6 +300,19 @@
 			path = ezCashUITests;
 			sourceTree = "<group>";
 		};
+		D57444B99C2007A95DCDFC6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AD7282E45D618C4209670B5 /* Pods-ezCash.debug.xcconfig */,
+				C57A075C8DCC0DBEA809C3FD /* Pods-ezCash.release.xcconfig */,
+				099E8007DF8D76A51BFA2F4A /* Pods-ezCash-ezCashUITests.debug.xcconfig */,
+				9E8EBE0063730BE1E64A6447 /* Pods-ezCash-ezCashUITests.release.xcconfig */,
+				6CE98A36B7B50E698F6CE620 /* Pods-ezCashTests.debug.xcconfig */,
+				1F60D7F87BBD8776A7B7A8B5 /* Pods-ezCashTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DDCBBF23ED0625009C2D9B /* Build configuration list for PBXNativeTarget "ezCash" */;
 			buildPhases = (
+				AED4BA1D32C0E07B7801642B /* [CP] Check Pods Manifest.lock */,
 				A7DDCB9123ED0622009C2D9B /* Sources */,
 				A7DDCB9223ED0622009C2D9B /* Frameworks */,
 				A7DDCB9323ED0622009C2D9B /* Resources */,
+				A702885723F0E4F600C65C5C /* Embed Frameworks */,
+				CA2DE192D5DCB28CC566D2A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DDCBC223ED0625009C2D9B /* Build configuration list for PBXNativeTarget "ezCashTests" */;
 			buildPhases = (
+				16410F521F36A7A4E70CEE88 /* [CP] Check Pods Manifest.lock */,
 				A7DDCBA723ED0625009C2D9B /* Sources */,
 				A7DDCBA823ED0625009C2D9B /* Frameworks */,
 				A7DDCBA923ED0625009C2D9B /* Resources */,
@@ -170,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DDCBC523ED0625009C2D9B /* Build configuration list for PBXNativeTarget "ezCashUITests" */;
 			buildPhases = (
+				67A04F03A1F54F084B6ED517 /* [CP] Check Pods Manifest.lock */,
 				A7DDCBB223ED0625009C2D9B /* Sources */,
 				A7DDCBB323ED0625009C2D9B /* Frameworks */,
 				A7DDCBB423ED0625009C2D9B /* Resources */,
+				5B2AA8270941A3C9A6ABAC4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +426,7 @@
 				A7DDCBA523ED0625009C2D9B /* LaunchScreen.storyboard in Resources */,
 				A7DDCBA223ED0625009C2D9B /* Assets.xcassets in Resources */,
 				A7DDCBA023ED0622009C2D9B /* Main.storyboard in Resources */,
+				A7CC2D2423F0E8E300B3E0B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +446,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16410F521F36A7A4E70CEE88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ezCashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2AA8270941A3C9A6ABAC4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCash-ezCashUITests/Pods-ezCash-ezCashUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCash-ezCashUITests/Pods-ezCash-ezCashUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ezCash-ezCashUITests/Pods-ezCash-ezCashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A04F03A1F54F084B6ED517 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ezCash-ezCashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED4BA1D32C0E07B7801642B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ezCash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2DE192D5DCB28CC566D2A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCash/Pods-ezCash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCash/Pods-ezCash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ezCash/Pods-ezCash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7DDCB9123ED0622009C2D9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DDCB9D23ED0622009C2D9B /* ViewController.swift in Sources */,
+				A7DDCB9D23ED0622009C2D9B /* MapViewController.swift in Sources */,
+				A76BF8B324607041003969DC /* TableViewCell.swift in Sources */,
+				A79CABEC2409E66900BCCBE5 /* NewPostViewController.swift in Sources */,
 				A7DDCB9923ED0622009C2D9B /* AppDelegate.swift in Sources */,
+				A753170923F8727300A7FF79 /* UserPasswordLoginViewController.swift in Sources */,
+				A74950A323EF22DB00FD3E1D /* UserEmailRegisterViewController.swift in Sources */,
+				A72F77E523F24E7D00EB58F9 /* UserPasswordRegisterViewController.swift in Sources */,
+				A77BCD0A240F30E2002F4455 /* SwitchViewController.swift in Sources */,
+				A74DC23B242A5D440060F955 /* PostDetailViewController.swift in Sources */,
 				A7DDCB9B23ED0622009C2D9B /* SceneDelegate.swift in Sources */,
+				A7AAAD8723FCCDEE003D82E5 /* FireBaseHelper.swift in Sources */,
+				A76761C623FF7609009C7DB2 /* UserProfileViewController.swift in Sources */,
+				A76B479824076543005C7676 /* EditProfileViewController.swift in Sources */,
+				A73324F0240606DF001AEEC9 /* SlideInTransition.swift in Sources */,
+				A7C7745723EE5A7600A7D034 /* TableViewController.swift in Sources */,
+				A73324EC24060173001AEEC9 /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,17 +741,21 @@
 		};
 		A7DDCBC023ED0625009C2D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD7282E45D618C4209670B5 /* Pods-ezCash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88VSUFDDJM;
 				INFOPLIST_FILE = ezCash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Oliver.ezCash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +763,21 @@
 		};
 		A7DDCBC123ED0625009C2D9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57A075C8DCC0DBEA809C3FD /* Pods-ezCash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88VSUFDDJM;
 				INFOPLIST_FILE = ezCash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Oliver.ezCash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +785,7 @@
 		};
 		A7DDCBC323ED0625009C2D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE98A36B7B50E698F6CE620 /* Pods-ezCashTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +808,7 @@
 		};
 		A7DDCBC423ED0625009C2D9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F60D7F87BBD8776A7B7A8B5 /* Pods-ezCashTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +831,7 @@
 		};
 		A7DDCBC623ED0625009C2D9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099E8007DF8D76A51BFA2F4A /* Pods-ezCash-ezCashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +852,7 @@
 		};
 		A7DDCBC723ED0625009C2D9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8EBE0063730BE1E64A6447 /* Pods-ezCash-ezCashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

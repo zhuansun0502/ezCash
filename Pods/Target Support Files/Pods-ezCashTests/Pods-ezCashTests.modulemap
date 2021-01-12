@@ -1,0 +1,6 @@
+framework module Pods_ezCashTests {
+  umbrella header "Pods-ezCashTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
